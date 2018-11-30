@@ -17,8 +17,6 @@
 	align-items: center;
 	background: url("image/pattern.png");
 	background-size: cover;
-
-
 }
 .header-content{
 	display: flex;
@@ -189,6 +187,7 @@ iframe {border:10px solid #000;
 .wrap-pricing-plans{
 	width: 100%;
 	background: #e7e7e7;
+	height: 580px;
 }
 .pricing-content{
 	text-align: center;
@@ -208,31 +207,69 @@ iframe {border:10px solid #000;
 	font-size: 16px;
 	color: #b5b5b5;
 }
-.packages-block{
-	border: 3px solid #000;
-	position: relative;
-	width: 300px;
-	height: 420px;
+.wrap-packages{
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	width: 1200px;
+	margin: auto;
+}
+.packages-block{
+	width: 300px;
+	padding: 60px 2px;
 
 }
 .packages-header{
-	height: 15%;
+	height: 60px;
 	width: 100%;
 	background: #3498db;
 	color: #fff;
 	font-family:"MyriadProRegular";
 	font-size: 28px;
+	text-align: center;
+	line-height: 60px;
 }
 .packages-main{
-	height: 65%;
-	width: 100%;
 	background: #fff;
 }
 .packages-footer{
-	height: 20%;
+	height: 80px;
 	width: 100%;
 	background: #3498db;
+}
+.packages-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.purchase-wrap{
+	height: 40px;
+	width: 140px;
+	background: #0d74b9;
+	
+}
+.purchase{
+	font-family:"MyriadProRegular";
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+
+.packages-main{
+	text-align: center;
+	padding: 20px;
+}
+.packages-price{
+	font-size: 42px;
+	color: #000;
+}
+.packages-content{
+	font-size: 16px;
+	color: #ccc;
 }

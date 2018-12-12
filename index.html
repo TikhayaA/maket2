@@ -3,7 +3,12 @@
 <head>
 	<title>Макет2</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 </head>
 <body>
 	<header>
@@ -69,11 +74,15 @@
 					<p class="crazy_title_text"><img class="crazy_title_icon" src="image/bullet.png"> Lorem ipsum dolor sit amet</p>
 					<p class="crazy_title_text"><img class="crazy_title_icon" src="image/bullet.png">Lorem ipsum dolor sit amet consectetur elt</p>
 				</div>
-				<div class="crazy_video crazy-block"><iframe class="crazy_video" width="560" height="315" src="https://www.youtube.com/embed/zdJIYldakwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+				<div class="crazy_video crazy-block"><iframe class="crazy_video" width="100%" height="315" src="https://www.youtube.com/embed/zdJIYldakwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 		</div>
-		<div class="wrap-testimonials">
-			<div class="testimonials-quote">“Craze is one of the most complete app packages I have ever come across. I would highly reccomend it to anyone!”</div>
-			<div class="testimonials-signature">Sarah Hunt</div>
+		<div class="wrap-testimonials owl-carousel owl-theme">
+			<div>
+				<div class="testimonials-quote">“Craze is one of the most complete app packages I have ever come across. I would highly reccomend it to anyone!”</div>
+				<div class="testimonials-signature">Sarah Hunt:</div>
+			</div>
+			<div>Lorem ipsum dolor sit amet, pro aeterno adipisci ex, pro no iriure accusam. Eros admodum intellegat ex mea, mei wisi nullam ne, qui cu aliquid nominavi. Est habemus maiestatis ut. Vim quod elitr interesset ea</div>
+			<div>Lorem ipsum dolor sit amet, pro aeterno adipisci ex, pro no iriure accusam. Eros admodum intellegat ex mea, mei wisi nullam ne, qui cu aliquid nominavi. Est habemus maiestatis ut. Vim quod elitr interesset ea</div>
 		</div>
 		<div class="wrap-pricing-plans">
 			<div class="pricing-content">
@@ -170,9 +179,38 @@
 				
 			</div>
 		</div>
-			
-		
+		<div class="getintouch">
+			<div class="getintouch-title">Say Hi & Get in Touch</div>
+			<div class="getintouch-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse. </div>
+			<div class="getintouch-wrapicon">
+				<div class="getintouch-icon "><i class="fab fa-twitter"></i></div>
+				<div class="getintouch-icon "><i class="fab fa-facebook-f"></i></i></div>
+				<div class="getintouch-icon "><i class="fab fa-pinterest"></i></div>
+				<div class="getintouch-icon "><i class="fab fa-google-plus-g"></i></div>
+				<div class="getintouch-icon "><i class="fab fa-linkedin-in"></i></div>
+				<div class="getintouch-icon "><i class="fab fa-youtube"></i></div>
+			</div>
+		</div>
 	</main>
-	<footer></footer>
+	<footer>
+		<div class="wrap-footer">
+			<div class="wrap-footer-link"><a href="#">Contact</a></div>
+			<div class="wrap-footer-link"><a href="#">Download</a></div>
+			<div class="wrap-footer-link"><a href="#">Press</a></div>
+			<div class="wrap-footer-link"><a href="#">Email</a></div>
+			<div class="wrap-footer-link"><a href="#">Support</a></div>
+			<div class="wrap-footer-link"><a href="#">Privacy Policy</a></div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".owl-carousel").owlCarousel({
+				items:1,
+				loop:true,
+				dotsEach:true
+
+			});
+		});
+	</script>
 </body>
 </html>
